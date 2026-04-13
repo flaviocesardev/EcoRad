@@ -26,7 +26,5 @@ Este projeto faz parte do meu portfólio de desenvolvimento web. O escopo do tra
 
 ---
 
-Desenvolvido por **Caesar** | **Flau Tech Consultoria e Tecnologia**
-
 💼 [Visitar meu perfil no GitHub](https://github.com/flaviocesardev)
 💼 [Visitar meu perfil no LinkedIn](https://www.linkedin.com/in/flavio-cesar-dev/)
