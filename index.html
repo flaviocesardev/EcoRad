@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRad</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="img/logo/ecorad_logo.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="120" tabindex="0">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="img/logo/ecorad_logo.png" class="logo-navbar">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços e Exames</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#planosParceiros">Planos Parceiros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ondeEstamos">Onde Estamos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header id="home" class="hero-section position-relative text-white">
+
+    <div class="wave-bg" style="z-index: 2; pointer-events: none; transform: scaleX(-1);">
+        <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMid slice">
+           <path d="M0,560 C300,500 600,600 900,520 C1200,400 1440,400 1440,400 L1440,600 L0,600 Z" fill="#dddfe0"></path>
+        </svg>
+    </div>
+
+    <div class="container-fluid px-0 position-relative" style="z-index: auto;">
+        <div class="row g-5 align-items-center">
+
+            <div class="col-lg-7 text-center text-lg-start text-dark position-relative" style="z-index: 3;">
+                <h1 class="display-5 fw-bold mb-3 ">
+                    Cuidado, excelência e tecnologia no diagnóstico por imagem, para garantir o bem-estar do seu pet!
+                </h1>
+                <p class="lead  mb-4">
+                    Somos a <span class="fw-bold">EcoRad</span>, centro de diagnóstico veterinário, oferecendo sempre o melhor para clientes e parceiros!
+                </p>
+                <a href="#" id="btn-parceiro" class="botaoParceiro btn btn-dark">
+                    Seja um parceiro EcoRad!
+                </a>
+            </div>
+
+            <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end hero-img-wrapper position-relative" style="z-index: 1;">
+                <img src="img/logo/foto_home.png" class="img-fluid hero-img">
+            </div>
+
+        </div>
+    </div>
+
+</header>
+
+    <section id="sobre" class="py-5" style="background-color: #dddfe0;">
+    <div class="container reveal">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-12 text-center">
+                <h1 class="fw-bold mb-4">Sobre Nós</h1>
+                <p class="text-muted text-sobre">
+                    Na EcoRad, acreditamos que cada detalhe faz a diferença no diagnóstico e no cuidado com a vida. 
+                    Somos um centro especializado em diagnóstico por imagem veterinária, comprometido em oferecer 
+                    resultados rápidos, precisos e confiáveis para auxiliar médicos veterinários na tomada de decisão.
+                </p>
+                <ul class="list-unstyled text-sobre-abaixo">
+                    <li class="mb-2">
+                        Unimos tecnologia de ponta, experiência clínica e um olhar sensível para garantir que 
+                        cada exame contribua de forma efetiva para o bem-estar do paciente.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="servicos" class="pt-4 pb-0" style="background-color: #dddfe0;">
+        <style>
+            .card-servico {
+                background: #ffffff;
+                border: none;
+                border-radius: 16px;
+                padding: 30px;
+                height: 100%;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                text-align: left;
+            }
+            .card-servico:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            }
+            .icone-servico {
+                width: 60px;
+                height: 60px;
+                background-color: rgba(112, 112, 112, 0.1);
+                color: #000000;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.8rem;
+                margin-bottom: 20px;
+            }
+            .lista-exames {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .lista-exames li {
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 12px;
+                color: #555;
+                font-size: 0.95rem;
+                line-height: 1.4;
+            }
+            .lista-exames li::before {
+                content: "\F26A"; /* Ícone de check do Bootstrap Icons */
+                font-family: "bootstrap-icons";
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: #616161;
+                font-size: 1.1rem;
+            }
+        </style>
+
+        <div class="container text-center reveal mt-3">
+            <h1 class="fw-bold mb-2">Nossos Serviços e Exames</h1>
+            <p class="text-muted mb-5">Tecnologia avançada e precisão para o diagnóstico do seu pet.</p>
+            
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                
+                <div class="col">
+                    <div class="card-servico">
+                        <div class="icone-servico"><i class="bi bi-heart-pulse-fill"></i></div>
+                        <h4 class="fw-bold mb-4">Cardiologia & Prevenção</h4>
+                        <ul class="lista-exames">
+                            <li>Ecocardiograma</li>
+                            <li>Eletrocardiograma</li>
+                            <li>Avaliação de Risco Cirúrgico</li>
+                            <li>Aferição de Pressão Arterial</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-servico">
+                        <div class="icone-servico"><i class="bi bi-soundwave "></i></div>
+                        <h4 class="fw-bold mb-4">Ultrassonografia</h4>
+                        <ul class="lista-exames">
+                            <li>Ultrassonografia Abdominal</li>
+                            <li>Ultrassonografia Ortopédica</li>
+                            <li>Ultrassonografia Gestacional</li>
+                            <li>Ultrassonografia Cervical</li>
+                            <li>Ultrassonografia Ocular</li>
+                            <li>Ultrassonografia em pets não convencionais (silvestres/exóticos)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-servico">
+                        <div class="icone-servico"><i class="bi bi-file-medical-fill"></i></div>
+                        <h4 class="fw-bold mb-4">Radiologia (Raio-X)</h4>
+                        <ul class="lista-exames">
+                            <li>Raio-X Simples</li>
+                            <li>Raio-X com Contraste</li>
+                            <li>Raio-X em pets não convencionais (silvestres/exóticos)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card-servico">
+                        <div class="icone-servico"><i class="bi bi-bandaid-fill"></i></div>
+                        <h4 class="fw-bold mb-4">Procedimentos Guiados</h4>
+                        <ul class="lista-exames">
+                            <li><strong>Procedimentos Intervencionistas:</strong> Citologia e biópsia Tru-Cuts guiadas por ultrassom.</li>
+                            <li><strong>Drenagens Guiadas:</strong> Cistocenteses, abdominocenteses, colecistacenteses, toracocenteses e pericardiocenteses.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-white" style="line-height: 0; margin-top: -1px;">
+        <svg viewBox="0 400 1440 200" preserveAspectRatio="none" style="display: block; width: 100%; height: 220px; transform: scaleY(-1) scaleX(-1);">
+            <path d="M0,560 C300,500 600,600 900,520 C1200,400 1440,400 1440,400 L1440,600 L0,600 Z" fill="#dddfe0"></path>
+        </svg>
+    </div>
+
+   <section id="planosParceiros" class="pt-4 pb-5 bg-white">
+        <style>
+            .card-parceiro {
+                background-color: transparent; 
+                border: none; 
+                box-shadow: none; 
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform 0.3s ease;
+                height: 100%;
+            }
+            .card-parceiro:hover {
+                transform: translateY(-8px);
+            }
+            .logo-parceiro {
+                height: 130px; 
+                width: 100%;
+                object-fit: contain; 
+            }
+        </style>
+
+        <div class="container text-center reveal">
+            <h1 class="fw-bold mb-5">Planos Parceiros</h1>
+            
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center g-4 mb-4">
+                <div class="col"><div class="card-parceiro"><img src="img/planos/1.png" class="logo-parceiro" alt="Plano 1"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/2.png" class="logo-parceiro" alt="Plano 2"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/3.png" class="logo-parceiro" alt="Plano 3"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/4.png" class="logo-parceiro" alt="Plano 4"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/5.png" class="logo-parceiro" alt="Plano 5"></div></div>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 justify-content-center g-4">
+                <div class="col"><div class="card-parceiro"><img src="img/planos/6.png" class="logo-parceiro" alt="Plano 6"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/7.png" class="logo-parceiro" alt="Plano 7"></div></div>
+                <div class="col"><div class="card-parceiro"><img src="img/planos/8.png" class="logo-parceiro" alt="Plano 8"></div></div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="galeria" class="py-4 bg-white">
+        <div class="container-fluid px-0 text-center overflow-hidden reveal">
+            <h1 class="fw-bold mb-5">Galeria</h1>
+
+            <div id="galeria-dinamica"></div>
+
+        </div>
+    </section>
+
+    <section id="ondeEstamos" class="py-4 bg-white">
+        <div class="container reveal">
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-5">
+                    <h1 class="fw-bold mb-2">Onde estamos</h1>
+                    
+                    <p id="titulo-unidade-ativa" class="text-success fw-bold mb-4 small text-uppercase">Carregando unidade...</p>
+                    
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box me-3"><i class="bi bi-geo-alt-fill"></i></div>
+                            <span id="txt-endereco" class="small text-muted mb-0">Carregando endereço...</span>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="icon-box me-3"><i class="bi bi-telephone-fill"></i></div>
+                            <span id="txt-tel" class="small text-muted mb-0">Carregando telefone...</span>
+                        </div>                      
+                    </div>
+
+                    <div class="p-4 bg-light rounded-4 shadow-sm mb-4">
+                        <h5 class="fw-bold mb-3 small">
+                            <i class="bi bi-clock-history me-2"></i>Horários desta unidade:
+                        </h5>
+                        <ul class="list-unstyled mb-0 small text-muted" id="lista-horarios"></ul>
+                    </div>
+
+                    <a id="btn-whats-unidade" href="#" target="_blank"
+                       class="botaoWhatsContato btn btn-success btn-lg w-100 fw-bold shadow-sm">
+                        <i class="bi bi-whatsapp me-2"></i> Chamar no WhatsApp
+                    </a>
+                </div>
+
+                <div class="col-lg-7 d-flex flex-column">
+                    <div class="d-flex justify-content-center flex-wrap gap-2 mb-3" id="botoes-mapa"></div>
+                    
+                    <div class="map-container rounded-4 shadow-sm overflow-hidden flex-grow-1">
+                        <iframe id="iframe-mapa" src="" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <footer class="py-3 bg-dark text-white text-center">
+        <div class="container">
+            <img src="img/logo/ecorad_logo.png" alt="Logo EcoRad" height="40" class="mb-3 opacity-75" style="object-fit: contain;">
+            <p class="mb-1 small opacity-75">© 2026 - Ecorad Centro de Diagnóstico Veterinário. Todos os direitos reservados.</p>
+            <!-- <p class="mb-0 small opacity-75">Desenvolvido por FlauTechnology</p> -->
+        </div>
+    </footer>
+
+
+    <a href="javascript:void(0)" class="whatsapp-float shadow whatsapp-trigger" id="whatsBtnFloat">
+        <i class="bi bi-whatsapp text-white" style="font-size: 2.8rem;"></i>
+    </a>
+
+    <div class="modal fade" id="modalWhats" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-4">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold">Escolha uma unidade</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="d-grid gap-3" id="lista-unidades-modal"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
