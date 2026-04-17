@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![Portfólio](https://img.shields.io/badge/Projeto-Portfólio-purple)
 
-Uma Landing Page moderna, rápida e direta desenvolvida para a **EcoRad**, uma clínica especializada em diagnósticos e exames por imagem para animais.
+Uma Landing Page moderna, rápida e direta desenvolvida para a **EcoRad**, uma clínica especializada em diagnósticos e exames por imagem para animais no Recife.
 
 🔗 **Acesse o site ao vivo:** [www.ecoradvet.com.br](https://www.ecoradvet.com.br)
 
@@ -22,7 +22,7 @@ O objetivo principal deste projeto foi criar uma vitrine digital profissional pa
 
 ## 👨‍💻 Sobre o Desenvolvimento
 
-Este projeto faz parte do meu portfólio de desenvolvimento web. O escopo do trabalho envolveu toda a criação da estrutura web, a publicação online e a configuração completa do domínio customizado para o cliente.
+Este free-lancer faz parte do meu portfólio de desenvolvimento web. O escopo do trabalho envolveu toda a criação da estrutura web, a publicação online e a configuração completa do domínio customizado para o cliente.
 
 ---
 
