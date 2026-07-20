@@ -44,11 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
             mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.7134691697634!2d-34.9086566242138!3d-8.02845068015041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1852d1d4709d%3A0x89785920286fa7c4!2sR.%20S%C3%A3o%20Vicente%2C%20213%20-%20Tamarineira%2C%20Recife%20-%20PE%2C%2052051-160!5e0!3m2!1spt-BR!2sbr!4v1775362404940!5m2!1spt-BR!2sbr",
             horarios: {
                 0: "Fechado",
-                1: "15h - 18h",
+                1: "Às 15h",
                 2: "Fechado",
                 3: "Fechado",
-                4: "17h - 18h",
-                5: "Fechado",
+                4: "Fechado",
+                5: "Às 8h",
                 6: "Fechado"
             }
         },
@@ -246,6 +246,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "img/galeria/10.jpeg",
         "img/galeria/11.jpeg",
         "img/galeria/12.jpeg",
+        "img/galeria/13.jpeg",
+        "img/galeria/14.jpeg",
+        "img/galeria/15.jpeg",
+        "img/galeria/16.jpeg",
+        "img/galeria/17.jpeg",
+        "img/galeria/18.png",
        
     ];
 
