@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const unidades = [        
         { 
-            nome: "Unidade Campo Grande", 
+            nome: "Unidade Campo Grande (Bicho Solto)", 
             tel: "5581997050491", 
             telFormatado: "(81) 99705-0491",
             //email: "Substituirpeloemail",
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         },
         { 
-            nome: "Unidade Tabajara", 
+            nome: "Unidade Tabajara (G-vet)", 
             tel: "5581991545553", 
             telFormatado: "(81) 99154-5553",
             //email: "Substituirpeloemail",
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         },
         { 
-            nome: "Unidade Tamarineira", 
+            nome: "Unidade Tamarineira (Villa Pet)", 
             tel: "5581981373040", 
             telFormatado: "(81) 98137-3040",
             //email: "",
@@ -52,6 +52,23 @@ document.addEventListener("DOMContentLoaded", function () {
                 6: "Fechado"
             }
         },
+        { 
+            nome: "Unidade Boa Viagem (Planet Pet)", 
+            tel: "5581999216308", 
+            telFormatado: "(81) 99921-6308",
+            //email: "",
+            endereco: "Rua Dez de Julho, 414 - Boa Viagem, Recife - PE, 51030-570",
+            mapa: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.670589827505!2d-34.914779524467534!3d-8.134978691894888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e3180ce055d%3A0x63846197c168ef49!2sR.%20Dez%20de%20Julho%2C%20414%20-%20Boa%20Viagem%2C%20Recife%20-%20PE%2C%2051030-570!5e0!3m2!1spt-BR!2sbr!4v1790648690803!5m2!1spt-BR!2sbr",
+            horarios: {
+                0: "Fechado",
+                1: "09h - 12h / 14h - 19h",
+                2: "09h - 12h / 14h - 19h",
+                3: "09h - 12h / 14h - 19h",
+                4: "09h - 12h / 14h - 19h",
+                5: "09h - 12h / 14h - 19h",
+                6: "09h - 14h"
+            }
+        }
     ];
 
     const contatosWhats = [
